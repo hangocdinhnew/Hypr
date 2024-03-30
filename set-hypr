@@ -187,7 +187,7 @@ fi
 if [ ! -f /sbin/paru ]; then
 	echo -en "$CNT - Configuring paru."
 	git clone https://aur.archlinux.org/paru-bin.git &>>$INSTLOG
-	cd paru
+	cd paru-bin
 	makepkg -si --noconfirm &>>../$INSTLOG &
 	show_progress $!
 	if [ -f /sbin/paru ]; then
