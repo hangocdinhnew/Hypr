@@ -85,6 +85,8 @@ install_stage=(
 	xfce4-settings
 	nwg-look-bin
 	sddm
+	hack-nf-mono-git
+	hack-nf-git
 )
 
 for str in ${myArray[@]}; do
