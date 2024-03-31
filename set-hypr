@@ -64,7 +64,7 @@ install_stage=(
 	slurp
 	thunar
 	btop
-	firefox
+	floorp
 	thunderbird
 	mpv
 	pamixer
