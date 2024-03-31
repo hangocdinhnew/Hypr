@@ -10,11 +10,17 @@
 # Define the software that would be inbstalled
 #Need some prep work
 prep_stage=(
-  wget
-  curl
-  zsh
-  p7zip
-  unzip
+	wget
+	curl
+	zsh
+	neofetch
+	pipewire
+	pipewire-alsa
+	pipewire-jack
+	pipewire-pulse
+	lib32-pipewire
+	p7zip
+	unzip
 	qt5-wayland
 	qt5ct
 	qt6-wayland
