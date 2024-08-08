@@ -13,7 +13,7 @@ prep_stage=(
 	wget
 	curl
 	zsh
-	neofetch
+	fastfetch
 	pipewire
 	pipewire-alsa
 	pipewire-jack
