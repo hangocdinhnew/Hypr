@@ -83,10 +83,8 @@ install_stage=(
 	noto-fonts-emoji
 	lxappearance
 	xfce4-settings
-	nwg-look-bin
+	nwg-look
 	sddm
-	hack-nf-mono-git
-	hack-nf-git
 )
 
 for str in ${myArray[@]}; do
